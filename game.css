@@ -1,0 +1,43 @@
+body{
+    
+    backdrop-filter: blur(10px);
+    filter: blur(200%);
+   background: linear-gradient( to left   , #039fbe , #1566DD, #7788BB ,#8A33FD, #fff);
+}
+
+
+td{
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid #000;
+    height: 100px;
+    width: 100px;
+    font-family: cursive;
+}
+
+table{
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #325432;
+    font-size: 25px;   
+    transition: .6s;
+    border-radius: 10px;
+}
+
+button:hover{
+    transition-property: all;
+    box-shadow: 0px 0px 4px 2px #000;
+   
+}
+

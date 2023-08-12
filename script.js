@@ -45,6 +45,8 @@ length: 10  */
 
 
 
+
+
 //Given an array of numbers, remove duplicate values using the filter() method
 
 
@@ -106,7 +108,7 @@ let arrayOfPersons = [
 let transform = arrayOfPersons.map((name) => `${name.name} (${name.age})`);
     console.log(transform)
     
-/*output ['denver (40)', 'santoor (60)', 'rexona (30)', 'cinthol (30)', 'no 1 (10)', 'shampoo (15)', 'pearce (25)', 'ice-cream (35)', 'bar (45)', 'blender sprite (55)', 'magic movements (65)', '100pipes (75)', 'odka (15)', 'mango juice (25)']
+/*output ['denver (40)', 'santoor (60)', 'rexona (30)', 'cinthol (30)', 'no 1 (10)', 'shampoo (15)', 'pearce (25)', 'ice-cream (35)', 'bar (45)', 'blender sprite (55)', 'magic movements (65)', '100pipes (75)', 'odka (15)', 'mango juice (25)']*/
 
 
 
@@ -124,7 +126,7 @@ let filterBooks = arrayOfBooks.filter(author => {
     return author.author === 'Vyasa'
 })
 console.log(filterBooks)
-*/
+
 
 //Given an array of strings, use the map() method to convert each string to uppercase.
 
